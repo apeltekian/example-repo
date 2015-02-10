@@ -16,7 +16,7 @@ int main() {
 
 	for (int i = 1; i <= maxPotatoes; i++) {
 		std::cout << i << " potatoes.\n";
-		usleep(1250000);
+		usleep(150000);
 	}
 
 	std::cout << "ALL of the potatoes!\n";
